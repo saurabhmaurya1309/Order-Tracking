@@ -1,0 +1,33 @@
+# Ignore Python/Django related files (fedextrackdjango)
+fedextrackdjango/*.pyc
+fedextrackdjango/*.pyo
+fedextrackdjango/*.pyd
+fedextrackdjango/__pycache__/
+fedextrackdjango/*.so
+fedextrackdjango/*.egg-info/
+fedextrackdjango/*.egg
+fedextrackdjango/venv/
+fedextrackdjango/.env
+fedextrackdjango/env/
+fedextrackdjango/db.sqlite3
+fedextrackdjango/db.sqlite3-journal
+fedextrackdjango/media/
+fedextrackdjango/staticfiles/
+fedextrackdjango/*.log
+fedextrackdjango/*/migrations/
+
+# Ignore Node.js/React related files (fedextrackreactui)
+fedextrackreactui/node_modules/
+fedextrackreactui/npm-debug.log
+fedextrackreactui/yarn-debug.log
+fedextrackreactui/yarn-error.log
+fedextrackreactui/build/
+fedextrackreactui/dist/
+fedextrackreactui/.env
+
+# IDE, OS, and other general ignores
+.vscode/
+.idea/
+*.swp
+.DS_Store
+coverage/

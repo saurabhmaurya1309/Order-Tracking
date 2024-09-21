@@ -1,0 +1,42 @@
+# Ignore Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg-info/
+*.egg
+
+# Ignore virtual environment
+venv/
+.env
+env/
+__pycache__/
+
+# Ignore Django-related files
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.py[cod]
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Ignore Mac OS generated files
+.DS_Store
+
+# Ignore IDE specific files (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
